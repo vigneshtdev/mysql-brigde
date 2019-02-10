@@ -3,9 +3,7 @@ const connection = mysql.createConnection({
     host:"35.185.82.119",
     user: "vignesh",
     password: "vignesh",
-    database: "attendance_node",
-    port:3306,
-    timeout: 10000
+    database: "attendance_node"
 });
 
 connection.connect((err) => {
